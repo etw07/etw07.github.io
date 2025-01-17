@@ -7,3 +7,11 @@ body {
 #title {
   color: orange;
 }
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px; /* Optional: adds space between images */
+}
+.image-grid img {
+  width: 100%;
+}
